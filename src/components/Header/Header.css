@@ -1,0 +1,57 @@
+.dark-theme {
+  background-color: #252525;
+  border-color: #ddd7d7;
+  border-width: medium;
+}
+
+.white-theme {
+  background-color: rgb(177, 170, 170);
+  border-color: black;
+  border-width: medium;
+}
+.white-theme,
+.dark-theme {
+  height: 100px;
+  padding: 20px 0 0 0;
+}
+.dark-style {
+  color: #ddd7d7;
+  font-family: "Product Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  /* margin: 50px 0 0 0; */
+}
+
+.white-style {
+  /* margin: 50px 0 0 0; */
+  font-family: "Product Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 10px 0 10px;
+}
+
+.btn-white {
+  margin-left: 10px;
+  background-color: #252525;
+  border-style: none;
+}
+.btn-dark {
+  margin-left: 10px;
+  border-style: none;
+  background-color: rgb(177, 170, 170);
+}
+
+img {
+  width: 24px;
+}
